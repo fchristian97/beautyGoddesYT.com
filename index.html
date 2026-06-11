@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BEAUTY GODDESS YT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="myCSS.css" />
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar" class="nav-bar">
+      <img
+        id="header-img"
+        class="header-img"
+        src="assets/img/logo.jpg"
+        alt="Logo Landy Beauty"
+      />
+      <a class="nav-link" href="#contact">Contact</a>
+      <a class="nav-link" href="#pricing">Tarifs</a>
+      <a class="nav-link" href="#about">A propos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sectionForm">
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <h1>BEAUTY GODDESS YT</h1>
+        <p>Entrez votre e-mail pour vous abonner, et prendre rendez-vous.</p>
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Entrez votre adresse e-mail"
+          required
+        />
+        <input id="submit" type="submit" value="S'abonner" class="btn" />
+      </form>
+    </section>
+
+    <section id="video-gallery">
+      <div id="videofont">
+        
+        <iframe id="video" width="1035" height="582" src="https://www.youtube.com/embed/LHfXcwZAbgg" 
+        title="4 coiffures naturelles tendance trouvees sur Pinterest" frameborder="0"
+         allow="accelerometer; autoplay;
+          clipboard-write; encrypted-media; 
+          gyroscope; picture-in-picture;
+           web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>A propos</h2>
+      <p>
+        La BEAUTY GODDESS YT est un salon et un espace de vente pour les soins
+        capillaires. Nous sommes situés au numero <em> 32 de Mayard à Jacmel</em> . Nos
+        portes sont ouvertes du lundi au samedi, de 8h00 a 17h00.
+      </p>
+    </section>
+
+    <section id="pricing">
+      <h2 id="pricing-title">Tarifs</h2>
+      <div class="pricing-grid">
+        <article class="pricing-card pricing-card--subscription">
+          <div class="pricing-card__visual">
+              <img
+                src="assets/img/haircut.jpg"
+                alt="Coiffure de femme réalisée en salon"
+              />
+              <span class="pricing-card__price">1000HTG/SEM </span>
+          </div>
+          <h3>Abonnement tous les samedis</h3>
+          <p>Pour les membres et les personnes qui travaillent.</p>
+          <p class="pricing-card__note">Obtenez un soin régulier et entretien rapide pour vos cheveux et vos ongles.</p>
+        </article>
+
+        <article class="pricing-card pricing-card--reservation">
+          <div class="pricing-card__visual">
+              <img
+                src="assets/img/manicure.jpg"
+                alt="Main avec manucure décorée et soignée"
+              />
+              <span class="pricing-card__price">2000HTG</span>
+          </div>
+          <h4>Pose de manicure sur réservation</h4>
+          <p>Réservez votre journée à l'avance.</p>
+          <p class="pricing-card__note">Pose manicure personnalisée selon votre style.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Nous Contacter</h2>
+      <div class="contact-info">
+        <article class="contact-item">
+          <h3>Téléphone</h3>
+          <p>
+            <a href="tel:46559581">46559581</a>
+          </p>
+          <p>
+            <a href="tel:374541">374541</a>
+          </p>
+        </article>
+        <article class="contact-item">
+          <h3>Email</h3>
+          <p>
+            <a href="mailto:beautygoddesYT@gmail.com">beautygoddesYT@gmail.com</a>
+          </p>
+        </article>
+        <article class="contact-item">
+          <h3>Adresse</h3>
+          <p>32 de Mayard, Jacmel, Haïti</p>
+          <p>Lundi - Samedi : 8h00 - 17h00</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="myfooter">
+    <a href="#">Confidentialite</a>
+    <a href="#">Conditions</a>
+    <a href="#contact">Contact</a>
+    <span>Copyright 2026, BEAUTY GODDESS YT, Jacmel HT</span>
+  </footer>
+</body>
+</html>
